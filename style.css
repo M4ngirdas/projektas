@@ -1,18 +1,16 @@
-
-@font-face {
-    font-family: Poppins;
-    src: url(fonts/Poppins-Regular.ttf);
-}
-h1{
-    font-family: Poppins;
-}
-
-P{
-    font-family: Poppins;
-}
-
-div{
-    border: 3px solid;
-    height: 120px;
-    overflow: auto;
-}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: hsl(160, 92%, 68%);
+    position: static;
+    top: 0%;
+    
+} 
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: hsl(56, 100%, 62%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}     
